@@ -36,9 +36,9 @@ class SortSearch extends React.Component {
             <SortSearchWrapper>
                 <SearchButton onClick={this.handleClick} onChange={this.handleChange}>Sort by price</SearchButton>
 
-                <SearchButton>Sort by name</SearchButton>
+                <SearchButton onClick={this.handleClick} onChange={this.handleChange}>Sort by name</SearchButton>
 
-                <SearchButton>Sort by relevence</SearchButton>
+                <SearchButton onClick={this.handleClick} onChange={this.handleChange}>Sort by relevence</SearchButton>
             </SortSearchWrapper>
         )
     }
